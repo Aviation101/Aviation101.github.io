@@ -261,6 +261,20 @@ background-size: cover;
       <br><br>
       <iframe src="https://calendar.google.com/calendar/embed?src=aviation101discord%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>-->
+    <br><br><br><br>
+    <h2>Instructor Portal (Instructors Only)</h2><br><br>
+    <button type="button" id="b1" onclick="infunc()" class="ib">Instructor Portal</button>
+    <script>
+    function redirect() {
+      window.location.replace("/instructor.html");
+    }
+    function infunc() {
+        var usn = prompt("Enter Code");
+        if(usn == "Aviation101") {
+          redirect();
+        }
+    }
+    </script>
     <div id="about">
     <br>
     <br>
